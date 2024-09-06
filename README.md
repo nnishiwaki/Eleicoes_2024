@@ -2,13 +2,13 @@
 
 **Já sabe em quem votar para prefeito de São Paulo em 2024?** 
 
-Com essa ferramenta, você pode pesquisar por candidatos de forma rápida e fácil! 
+Com essa ferramenta, você pode pesquisar pelos três candidatos, com maior possibilidade de vencer, de forma rápida e fácil! 
 
 **Como funciona a mágica?** ✨
 
 1. **Digite e pesquise:** Insira o nome do candidato ou a sigla do partido no campo de pesquisa.
 2. **Confira os resultados:** A aplicação te mostra todos os candidatos relacionados à sua pesquisa, com informações como propostas, profissão, patrimônio e formação.
-3. **Saiba mais:** Clique no nome do candidato para acessar mais informações (ainda não implementado nesse exemplo básico).
+3. **Saiba mais:** Clique no nome do candidato para acessar mais informações.
 
 **Tecnologias utilizadas:**
 
@@ -51,8 +51,6 @@ Contribua para esse projeto e ajude mais pessoas a se informarem sobre as eleiç
 * **Inclua um mapa:** Mostre a localização dos candidatos.
 * **Adicione um comparativo:** Compare os candidatos lado a lado.
 * **Integre com redes sociais:** Permita que os usuários compartilhem as informações.
-
-**Com um README bem feito, você atrairá mais pessoas para o seu projeto e contribuirá para uma eleição mais consciente!**
 
 **Visite o site: https://eleicoes-2024-ten.vercel.app/**
 
