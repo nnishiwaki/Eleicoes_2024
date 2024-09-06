@@ -1,4 +1,4 @@
-## **README.md Descontraído: Seu Guia para as Eleições 2024**
+## **README.md : Seu Guia para as Eleições 2024 - Imersão Dev com Google Gemini**
 
 **Já sabe em quem votar para prefeito de São Paulo em 2024?** 
 
