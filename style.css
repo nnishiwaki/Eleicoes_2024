@@ -1,70 +1,6 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-/* Estilos para o link do candidato */
-.item-resultado h2 a {
-    font-size: 1.2rem; /* Ajuste o tamanho da fonte conforme necessário */
-    margin: 0.5rem 0;
-}
-
-/* Estilos para as propostas */
-.proposta-meta {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 0.5rem;
-}
-
-/* Media queries para dispositivos móveis */
-@media (max-width: 768px) {
-    /* Ajusta a largura máxima da caixa de resultados */
-    .item-resultado {
-        padding: 1rem 0.5rem; /* Reduza o padding lateral */
-    }
-
-    .item-resultado h2 a {
-        font-size: 1rem;
-    }
-  
-    /* Aumenta o tamanho da fonte dos títulos e parágrafos */
-    h1, h2, p {
-      font-size: 1.2rem;
-    }
-  
-    /* Aumenta o espaçamento entre os itens de resultado */
-    .item-resultado {
-      margin-bottom: 2rem;
-    }
-  
-    /* Adapta o layout para telas menores */
-    section {
-      flex-direction: column; /* Garante que os elementos fiquem em colunas */
-      align-items: flex-start; /* Alinha os elementos à esquerda */
-      padding: 1rem;
-    }
-  
-    /* Adapta o tamanho do input */
-    section input {
-      width: 100%; /* Ocupa toda a largura da tela */
-    }
-  
-    /* Adiciona um pouco de espaço entre os elementos */
-    .item-resultado {
-      margin: 1rem 0;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    /* Ajustes adicionais para telas ainda menores */
-    h1 {
-      font-size: 1.8rem;
-    }
-  
-    /* Reduz o padding dos elementos */
-    body, section, .resultados-pesquisa {
-      padding: 0.5rem;
-    }
-  }  
-
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
@@ -169,4 +105,61 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Responsividade para tablets e dispositivos menores */
+@media (max-width: 768px) {
+  /* Ajuste do tamanho da fonte para o nome do candidato */
+  .item-resultado h2 a {
+      font-size: 1.2rem; /* Reduz o tamanho da fonte para caber melhor na tela */
+  }
+
+  /* Ajuste do tamanho da fonte para as propostas */
+  .proposta-meta {
+      font-size: 1rem; /* Tamanho da fonte das propostas ajustado */
+      margin-bottom: 0.8rem; /* Adiciona um espaçamento extra abaixo da proposta */
+  }
+
+  /* Reduz a largura do input de pesquisa */
+  section input {
+      width: 100%; /* O input de pesquisa vai ocupar toda a largura da tela */
+  }
+
+  /* Ajusta a caixa de resultados de pesquisa para telas menores */
+  .resultados-pesquisa {
+      width: 90%; /* A caixa de resultados agora ocupa 90% da largura da tela */
+      height: auto; /* A altura ajusta-se ao conteúdo */
+  }
+
+  /* Reduz o padding e aumenta o espaçamento entre os itens de resultado */
+  .item-resultado {
+      padding: 1rem 0.8rem;
+      margin-bottom: 1.5rem; /* Maior espaçamento entre resultados */
+  }
+}
+
+@media (max-width: 480px) {
+  /* Ajuste adicional para smartphones e dispositivos muito pequenos */
+  h1 {
+      font-size: 1.8rem; /* Reduz o tamanho do título principal */
+  }
+
+  /* Ajusta o tamanho do nome do candidato e da proposta */
+  .item-resultado h2 a {
+      font-size: 1rem; /* Nome do candidato com tamanho adequado a telas pequenas */
+  }
+
+  .proposta-meta {
+      font-size: 0.9rem; /* Proposta também ajustada para telas pequenas */
+  }
+
+  /* Reduz o padding do corpo da página */
+  body, section, .resultados-pesquisa {
+      padding: 0.5rem; /* Menos espaço nas laterais */
+  }
+
+  /* Ajusta a largura da caixa de resultados */
+  .resultados-pesquisa {
+      width: 100%; /* Usa 100% da largura da tela */
+  }
 }
