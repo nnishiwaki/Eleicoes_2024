@@ -129,3 +129,42 @@ footer {
   .proposta-meta {
       font-size: 0.9rem; /* Reduz o tamanho das propostas */
   }
+  
+}
+
+/* Responsividade para smartphones menores que 480px */
+@media (max-width: 480px) {
+  /* Ajusta o tamanho da fonte do título principal */
+  h1 {
+      font-size: 1.5rem; /* Diminui o tamanho do título */
+      letter-spacing: 0.2rem; /* Reduz o espaçamento entre letras */
+  }
+
+  /* Ajusta a largura do input de pesquisa */
+  section input {
+      width: 100%; /* Faz o campo de pesquisa ocupar toda a largura */
+      padding: 0.8rem; /* Ajusta o padding */
+  }
+
+  /* Ajusta a largura da caixa de resultados */
+  .resultados-pesquisa {
+      width: 100%; /* Ocupa toda a largura */
+      height: 50vh; /* Ajuste da altura */
+  }
+
+  /* Ajusta o tamanho da fonte do nome do candidato */
+  .item-resultado h2 {
+      font-size: 1rem; /* Reduz o tamanho do título */
+  }
+
+  /* Ajusta o tamanho da fonte da proposta */
+  .proposta-meta {
+      font-size: 0.8rem; /* Reduz o tamanho da proposta */
+  }
+
+  /* Reduz o padding dos itens de resultado */
+  .item-resultado {
+      padding: 0.8rem;
+      margin-bottom: 0.8rem;
+  }
+}
