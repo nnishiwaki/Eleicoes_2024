@@ -107,86 +107,25 @@ footer {
     font-size: 1rem; /* Tamanho da fonte */
 }
 
-/* Estilos gerais de responsividade */
+/* Responsividade para tablets e dispositivos menores que 768px */
 @media (max-width: 768px) {
-  /* Ajusta a largura dos inputs e botões */
+  /* Ajusta a largura do input de pesquisa e dos resultados */
   section input {
-      width: 90%; /* Reduz a largura do campo de pesquisa em telas menores */
-      font-size: 1rem; /* Ajusta o tamanho da fonte */
+      width: 80%; /* Faz o campo de pesquisa ocupar 80% da largura */
   }
-
-  section button {
-      width: 90%; /* Faz o botão ocupar 90% da largura */
-      font-size: 1rem;
-  }
-
-  /* Ajusta o tamanho dos resultados */
+  
+  /* Ajusta a largura da caixa de resultados */
   .resultados-pesquisa {
-      width: 90%; /* Reduz a largura da caixa de resultados para 90% */
-      height: auto; /* Deixa a altura flexível */
+      width: 90%; /* Ocupa 90% da tela */
+      height: 50vh; /* Ajuste da altura da caixa de resultados */
   }
-
-  /* Ajusta o tamanho do texto dos candidatos e propostas */
+  
+  /* Ajusta o tamanho da fonte do nome do candidato */
   .item-resultado h2 {
-      font-size: 1.2rem; /* Diminui o tamanho da fonte do candidato */
+      font-size: 1.2rem; /* Reduz o tamanho do título */
   }
 
+  /* Ajusta o tamanho da fonte da proposta */
   .proposta-meta {
-      font-size: 1rem; /* Reduz o tamanho da fonte da proposta */
+      font-size: 0.9rem; /* Reduz o tamanho das propostas */
   }
-
-  /* Ajusta o padding dos itens de resultado */
-  .item-resultado {
-      padding: 0.8rem 1rem; /* Diminui o padding para evitar excesso de espaço */
-  }
-
-  /* Ajuste de espaçamento e layout do rodapé */
-  footer {
-      font-size: 0.9rem; /* Diminui o tamanho da fonte do rodapé */
-      padding: 1rem; /* Adiciona padding ao rodapé */
-      position: relative; /* Remove o position absolute para que o rodapé não cubra o conteúdo */
-  }
-}
-
-@media (max-width: 480px) {
-  /* Ajusta ainda mais os elementos para telas pequenas (celulares) */
-  h1 {
-      font-size: 1.8rem; /* Reduz o tamanho do título principal */
-      letter-spacing: 0.2rem; /* Reduz o espaçamento entre letras */
-  }
-
-  section input {
-      width: 100%; /* Campo de pesquisa ocupa toda a largura */
-      font-size: 0.9rem; /* Reduz o tamanho da fonte */
-  }
-
-  section button {
-      width: 100%; /* Botão ocupa toda a largura */
-      font-size: 0.9rem; /* Reduz o tamanho da fonte */
-  }
-
-  /* Ajusta o tamanho dos resultados */
-  .resultados-pesquisa {
-      width: 100%; /* A caixa de resultados ocupa toda a largura da tela */
-  }
-
-  /* Tamanho de fonte dos candidatos e proposta */
-  .item-resultado h2 {
-      font-size: 1rem; /* Reduz o tamanho do texto do candidato */
-  }
-
-  .proposta-meta {
-      font-size: 0.9rem; /* Reduz o tamanho da fonte da proposta */
-  }
-
-  /* Ajusta o padding dos itens de resultado */
-  .item-resultado {
-      padding: 0.5rem; /* Reduz o padding dos itens de resultado */
-  }
-
-  /* Rodapé em dispositivos menores */
-  footer {
-      font-size: 0.8rem; /* Reduz o tamanho da fonte do rodapé */
-      padding: 0.5rem; /* Reduz o padding no rodapé */
-  }
-}
