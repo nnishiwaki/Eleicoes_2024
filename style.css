@@ -1,6 +1,53 @@
 /* Importa a fonte Chakra Petch do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+    /* Ajusta a largura máxima da caixa de resultados */
+    .resultados-pesquisa {
+      width: 100%;
+    }
+  
+    /* Aumenta o tamanho da fonte dos títulos e parágrafos */
+    h1, h2, p {
+      font-size: 1.2rem;
+    }
+  
+    /* Aumenta o espaçamento entre os itens de resultado */
+    .item-resultado {
+      margin-bottom: 2rem;
+    }
+  
+    /* Adapta o layout para telas menores */
+    section {
+      flex-direction: column; /* Garante que os elementos fiquem em colunas */
+      align-items: flex-start; /* Alinha os elementos à esquerda */
+      padding: 1rem;
+    }
+  
+    /* Adapta o tamanho do input */
+    section input {
+      width: 100%; /* Ocupa toda a largura da tela */
+    }
+  
+    /* Adiciona um pouco de espaço entre os elementos */
+    .item-resultado {
+      margin: 1rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Ajustes adicionais para telas ainda menores */
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    /* Reduz o padding dos elementos */
+    body, section, .resultados-pesquisa {
+      padding: 0.5rem;
+    }
+  }  
+
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
